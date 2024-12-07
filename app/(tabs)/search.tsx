@@ -45,7 +45,7 @@ const SearchScreen = () => {
           value={query}
           onChangeText={setQuery}
           placeholderTextColor={"#fff"}
-          className="flex-1 shadow-lg text-white rounded-md bg-purple-950 px-4 border-blue-900 border-2"
+          className="flex-1 shadow-lg text-white rounded-md bg-purple-950 px-4 py-2 border-blue-900 border-2"
         />
       </View>
 

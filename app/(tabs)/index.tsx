@@ -43,39 +43,39 @@ export default function HomeScreen() {
     setAll(dataAll);
     if (dataAll.length != 0) console.log("dataAll successfully fetched");
 
-    // const dataPopular = await fetchLatest();
-    // setPopular(dataPopular);
-    // if (dataPopular.length != 0)
-    //   console.log("dataPopular successfully fetched");
+    const dataPopular = await fetchLatest();
+    setPopular(dataPopular);
+    if (dataPopular.length != 0)
+      console.log("dataPopular successfully fetched");
 
-    // const dataRelax = await fetchMangaWithGenres(chillAndRelaxingReads);
-    // setRelax(dataRelax);
-    // if (dataRelax.length != 0) console.log("dataRelax successfully fetched");
+    const dataRelax = await fetchMangaWithGenres(chillAndRelaxingReads);
+    setRelax(dataRelax);
+    if (dataRelax.length != 0) console.log("dataRelax successfully fetched");
 
-    // const dataMotivational = await fetchMangaWithGenres(
-    //   motivationalAndInspiringReads
-    // );
-    // setMotivational(dataMotivational);
-    // if (dataMotivational.length != 0)
-    //   console.log("dataMotivational successfully fetched");
+    const dataMotivational = await fetchMangaWithGenres(
+      motivationalAndInspiringReads
+    );
+    setMotivational(dataMotivational);
+    if (dataMotivational.length != 0)
+      console.log("dataMotivational successfully fetched");
 
-    // const dataThrill = await fetchMangaWithGenres(thrillingAndMysteriousReads);
-    // setThrill(dataThrill);
-    // if (dataThrill.length != 0) console.log("dataThrill successfully fetched");
+    const dataThrill = await fetchMangaWithGenres(thrillingAndMysteriousReads);
+    setThrill(dataThrill);
+    if (dataThrill.length != 0) console.log("dataThrill successfully fetched");
 
-    // const dataEmotional = await fetchMangaWithGenres(
-    //   emotionalAndDeepStoriesReads
-    // );
-    // setEmotional(dataEmotional);
-    // if (dataEmotional.length != 0)
-    //   console.log("dataEmotional successfully fetched");
+    const dataEmotional = await fetchMangaWithGenres(
+      emotionalAndDeepStoriesReads
+    );
+    setEmotional(dataEmotional);
+    if (dataEmotional.length != 0)
+      console.log("dataEmotional successfully fetched");
 
-    // const dataFantastical = await fetchMangaWithGenres(
-    //   fantasticalAdventuresReads
-    // );
-    // setFantastical(dataFantastical);
-    // if (dataFantastical.length != 0)
-    //   console.log("dataFantastical successfully fetched");
+    const dataFantastical = await fetchMangaWithGenres(
+      fantasticalAdventuresReads
+    );
+    setFantastical(dataFantastical);
+    if (dataFantastical.length != 0)
+      console.log("dataFantastical successfully fetched");
   }
 
   useEffect(() => {

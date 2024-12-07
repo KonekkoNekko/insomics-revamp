@@ -20,14 +20,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/1x1Logo.png",
         "backgroundColor": "#172554"
-      }
+      },
+      "package": "com.anonymous.insomicsrevamp"
     },
     "web": {
       "bundler": "metro",
       "output": "static",
       "favicon": "./assets/1x1Logo.png"
     },
-    "plugins": ["expo-router"],
+    "plugins": [
+      "expo-router"
+    ],
     "experiments": {
       "typedRoutes": true
     }
